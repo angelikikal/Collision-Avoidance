@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Publish</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="exit">Exit</string>
+    <string name="longitude">longitude</string>
+    <string name="latitude">latitude</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="connect">Connect</string>
+    <string name="publish">Publish</string>
+    <string name="hint">See what was published here..</string>
+    <string name="Sound">Sound</string>
+</resources>

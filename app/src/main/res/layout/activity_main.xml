@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginLeft="221dp"
+        android:layout_marginTop="413dp"
+        android:text="@string/subscribe" />
+
+    <Button
+        android:id="@+id/btnusub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnPublish"
+        android:layout_alignRight="@+id/btnPublish"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="293dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/unsubscribe" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnSub"
+        android:layout_alignRight="@+id/btnSub"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="213dp"
+        android:layout_marginRight="213dp"
+        android:onClick="conn"
+        android:text="@string/connect" />
+
+    <Button
+        android:id="@+id/btnD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnusub"
+        android:layout_alignLeft="@+id/btnusub"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="315dp"
+        android:onClick="disconn"
+        android:text="@string/disconnect" />
+
+
+    <TextView
+        android:id="@+id/longi"
+        android:layout_width="95dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="255dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="315dp"
+        android:text="@string/longitude" />
+
+    <TextView
+        android:id="@+id/lat"
+        android:layout_width="99dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginLeft="253dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="395dp"
+        android:text="@string/latitude" />
+
+
+    <Button
+        android:id="@+id/buttonEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-23dp"
+        android:layout_marginBottom="40dp"
+        android:text="Flashlight On/Off"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/Sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPublish"
+        android:layout_alignEnd="@+id/btnSub"
+        android:layout_marginTop="289dp"
+        android:layout_marginEnd="-9dp"
+        android:text="@string/Sound" />
+
+    <TextView
+        android:id="@+id/acceleration"
+        android:layout_width="133dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-24dp"
+        android:layout_marginBottom="226dp"
+        android:layout_toStartOf="@+id/Sound"
+        android:text="acceleration" />
+
+
+
+
+</RelativeLayout>

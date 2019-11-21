@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    item android:id="@+id/item1"
+    android:title="item1"
+    katerinamqttpublish:showAsAction="always"
+
+    />
+    <item android:id="@+id/exitt"
+        android:title="Exit"
+        />
+
+    <item android:id="@+id/item3"
+        android:title="Frequency"
+
+        >
+
+        <menu>
+
+            <item android:id="@+id/subitem1"
+                android:checkable="true"
+                android:title="5"
+
+                />
+            <item android:id="@+id/subitem2"
+                android:checkable="true"
+                android:title="10"
+
+                />
+            <item android:id="@+id/subitem3"
+                android:checkable="true"
+                android:title="20"
+                />
+
+
+
+        </menu>
+    </item>
+
+</menu>
