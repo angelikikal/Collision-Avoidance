@@ -1,4 +1,5 @@
 ![alt text](NKUA.jpg)
+
 #Collision Avoidance
 
 The purpose of this project is to detect and avoid car collisions/accidents on a road, by informing the drivers for potential dangers from the cars around them. It consists two android terminals which are considered as moving vehicles, an Edge Server, a Backhaul Server and a Database.
