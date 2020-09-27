@@ -1,4 +1,4 @@
-#Collision Avoidance
+# Collision Avoidance
 
 ![alt text](NKUA.jpg)
 
@@ -6,7 +6,7 @@ The purpose of this project is to detect and avoid car collisions/accidents on a
 
 ![alt text](network_sructure.png)
 
-##Description of the App:
+## Description of the App: 
 The interface between the application and the user includes six buttons, three TextView and a Settings' Menu.
 + The Menu is consisting the options for the user to select the wanted rate of which the android terminal can publish the measurments (in seconds), as well as give the user the option to exit the app.
 + There is a FLASHLIGHT ON / OFF button, which is obvioysly used to turn either on or off the flash of the device.
@@ -17,14 +17,14 @@ The interface between the application and the user includes six buttons, three T
 + An UNSUBSCRIBE button.
 Finally, there is a display of the accelerometer readings, as well as the coordinates of the android device.
 
-##Android Devices:
+## Android Devices: 
 The devices collect electroencephalographic (EEG) data from the sensors attached to the drivers, in order to detect if the drivers fall asleep during driving. They communicate with the Edge Server using the MQTT protocol.
 
-##Edge Server:
+## Edge Server: 
 The Edge Server collects the EEG data sent by the Android terminals and is responsible for the classification of those data in order to determine their status. After the classification is done, it sends status messages back to the devices using the MQTT protocol, and also to the Backhaul Server using a socket.
 
-##Backhaul Server:
+## Backhaul Server: 
 The Backhaul Server is responsible for the training of the model, which will be sent to the Edge Server and then be used for the classification. It also stores to the Database the status messages it receives from the Edge Server.
 
-##MySQL Database:
+## MySQL Database: 
 The Database is used to keep a status history of the Android devices
